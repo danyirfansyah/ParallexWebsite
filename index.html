@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  /* clearing css */
+  *, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 150%;
+    height: 150vh;
+  }
+  .intro {
+    background-image: url('7.jpg');
+  }
+  .content {
+    background-image: url('8.jpg');
+  }
+  .footer {
+    background-image: url('9.jpg');
+  }
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .title {
+   font-size: 4em;
+   letter-spacing: 20px;
+   font-family: fantasy;
+   color: whitesmoke; 
+  }
+
+</style>
+<body>
+  <div class="parallax intro">
+    <div class="cta">
+      <div class="cta title">iPhone</div>
+    </div>
+  </div> 
+  <div class="parallax content">
+    <div class="cta">
+      <div class="cta title">MacBook</div>
+    </div>
+  </div>
+  <div class="parallax footer">
+    <div class="cta">
+      <div class="cta title">AirPods</div>
+    </div>
+  </div> 
+</body>
+</html>
